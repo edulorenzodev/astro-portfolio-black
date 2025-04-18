@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-eary-black: #131313;
+  --color-primary-white: #fef5f5;
+
+  --color-theme-seashell: oklch(95.25% 0.0147 33.07);
+}
+
+@font-face {
+  font-family: 'Adjusted Arial Fallback';
+  src: local(Arial);
+  size-adjust: 112%;
+  ascent-override: 74%;
+  descent-override: normal;
+  line-gap-override: normal;
+}

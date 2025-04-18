@@ -1,11 +1,14 @@
+---
+import "../styles/global.css";
+---
+
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<title>Edu's portfolio</title>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
 	</head>
 	<body>
 		<slot />
@@ -18,5 +21,9 @@
 		margin: 0;
 		width: 100%;
 		height: 100%;
+		background-color: #131313;
+		display: flex;
+		flex-direction: column;
+		text-wrap: pretty;
 	}
 </style>
